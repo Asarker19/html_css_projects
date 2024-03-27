@@ -1,0 +1,50 @@
+1- Create the html element and then style them in css.
+********************
+1- Elements: buttons, p, a etc
+2- Elements pther property called attributes 
+3- a = anchore tag, we use for the link other website - href and _target attribues use for manage this link inside the element.
+4- extra white spaces and new lines are ignored in html
+5- for more button style <https://getcssscan.com/css-buttons-examples>
+6- color picked using RGB or HEX - for hex first 2 letters are for red, next 2 digit for green and last 2 are for blue
+<google Hex to rgb calculator - https://www.rapidtables.com/convert/color/hex-to-rgb.html> 
+7- css box model:  it use to manage inside and outside of the html element. 
+    * Margin[Left-Right-Top-Down]: outside of the html element 
+    * padding [Left-Right-Top-Down]: inside for html element
+8- Sample cursor style <https://developer.mozilla.org/en-US/docs/Web/CSS/cursor>
+*******************************************
+css text
+*******************************************
+1- html entity will allow us to use special character inside the text. 
+examle: dot . or tick mark etc. 
+https://www.toptal.com/designers/htmlarrows/
+<https://www.w3schools.com/html/html_entities.asp>
+
+2- CSS Specificity: Selector with more specific will get the priority, so p selector will less than class selector.
+3- text elements : it used inside the line of the text. <strong>, <u> for underline , span text element is generic element. 
+
+*********************************************************
+html Special tags
+**********************************************************
+1- <details>: --> for text and its details.. 
+<details> <summary> </<summary>
+<p> </p>
+</details>
+
+2- <bdo> --> text direction
+3-<abbr> --> to write abbreviation
+4-<smp> -->
+5-<kbd>--> 
+*********************************************************
+html void elements - no need closing tag
+**********************************************************
+
+*********************************************************
+Website fonts: search google fonts and use Roboto
+**********************************************************
+
+*********************************************************
+Image and text box
+1- exercise : We are cloning youtube.com <https://supersimple.dev/exercises/youtube>
+Step 1: How to load an image 
+Step 2: How to load a search box 2 Hours and 13 Sec
+**********************************************************

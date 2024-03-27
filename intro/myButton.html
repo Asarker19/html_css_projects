@@ -1,0 +1,163 @@
+<!-- 
+  1- text color is color
+  2- margin right or left means keep space after the element 
+  3- .subscribe-button and join-button all part of the class button
+-->
+<!-- CSS hover, transitions, shadows-->
+<style>
+  .subscribe-button {
+    background-color: rgb(200, 0, 0);
+    color: white;
+    border: none;
+    /* height: 36px;
+    width: 105px; */
+    /*Replacing hight and width with padding*/
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: opacity .015s;
+    margin-right: 8px;
+    vertical-align: top; /* Allign with the next html element*/
+  }
+
+  /*  Hover efferct :hover is psude class*/
+  .subscribe-button:hover {
+    /*background-color: green;*/
+    opacity: 0.8;
+  }
+
+  .subscribe-button:active {
+    /*background-color: blue;*/
+    opacity: 0.5;
+  }
+
+  .join-button {
+    background-color: white;
+    border-color: rgb(41, 118, 211);
+    border-style: solid;
+    border-width: 1px;
+    color: rgb(41, 118, 211);
+    height: 36px;
+    width: 62px;
+    border-radius: 2px;
+    cursor: help;
+    transition: background-color 1s, color 1s;
+  }
+
+  .join-button:hover {
+    background-color: rgb(41, 118, 211);
+    color: white;
+  }
+
+  .join-button:active {
+    opacity: 0.7;
+  }
+
+  .tweet-button {
+    background-color: rgb(2, 158, 255);
+    color: white;
+    border: none;
+    height: 36px;
+    width: 74px;
+    border-radius: 18px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 8px;
+    transition: box-shadow 0.15s;
+    vertical-align: top;
+  }
+
+  /*Shadow */
+  .tweet-button:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  }
+
+  .addToCart-button {
+    margin-top: 10px;
+    background-color: rgb(255, 216, 20);
+    border: none;
+    height: 25px;
+    width: 130px;
+    border-radius: 12.5px;
+    cursor: wait;   
+  }
+
+  .signUp-button {
+    margin-left: 10px;
+    background-color: rgb(46, 164, 79);
+    border: none;
+    height: 30px;
+    width: 74px;
+    border-radius: 5px;
+    color: white;
+    font-size: medium;
+    cursor: cell ;
+  }
+
+  .fb-home {
+    color: rgb(8, 102, 255);
+    /*font-family:"Segoe UI Historic" ;*/
+    font-size: 12px;
+    line-height: 16.08px;
+    list-style-image: none;
+    text-align: center;
+    transform-origin: 0px 0px;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    margin-top: 5px;
+    margin-left: 10px;
+    vertical-align: top;
+    cursor: crosshair;
+  }
+
+  .fb-home:hover {
+    /*box-shadow: 2px 2px 10px 0;*/
+    box-shadow: 10px 10px 10px rgba(86, 166, 236, 0.35);
+    /*Shadow: 1st value-horizontal, 2nd-vartical, 3rd-blare, 4th-color*/
+    /* We can use rgba color same as rgb with a - means opacity*/
+  }
+ 
+.button-87 {
+  margin: 10px;
+  padding: 15px 30px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+  display: block;
+  border: 0px;
+  font-weight: 700;
+  box-shadow: 0px 0px 14px -7px #f09819;
+  background-image: linear-gradient(45deg, #FF512F 0%, #F09819  51%, #FF512F  100%);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-87:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.button-87:active {
+  transform: scale(0.95);
+}
+</style>
+<button class="subscribe-button">SUBSCRIBED</button>
+<button class="join-button">JOIN</button>
+<button class="tweet-button">Tweet</button>
+<button class="addToCart-button"> Add to Cart</button>
+<button class="signUp-button">Sign up</button>
+<button class="fb-home">fm</button>
+<button class="button-87" role="button">Button 87</button>
+
